@@ -181,7 +181,7 @@
       },
       "get": {
         "tags": ["Roles"],
-        "summary": "Find roles by ID",
+        "summary": "Find role by ID",
         "description": "Returns roles based on ID.",
         "parameters": [
           {
