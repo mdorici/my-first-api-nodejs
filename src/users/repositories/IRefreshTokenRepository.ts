@@ -1,7 +1,6 @@
 import { RefreshToken } from '@users/entities/RefreshToken'
-import { invalid } from 'joi'
 
-type CreateRefreshTokenDTO = {
+export type CreateRefreshTokenDTO = {
   user_id: string
   token: string
   expires: Date
