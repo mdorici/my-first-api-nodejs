@@ -1,4 +1,3 @@
-import { AppError } from '@shared/errors/AppError'
 import { Request, Response, NextFunction } from 'express'
 import { Secret, verify } from 'jsonwebtoken'
 import authConfig from '@config/auth'
